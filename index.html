@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="assets/js/app.js"></script>
+    <title>Document</title>
+</head>
+<body onload="game()">
+    <p> Угадайте число от 1 до 100</p>
+    <h3>Остальсь попыток : <output id="t">-</output></h3>
+    <p> Ваш вариант: </p>
+    <input oninput="game()" type="number" id="numInput">
+    <button onclick="game()">Дать ответ</button>
+
+    <p>Ваш вариант <output id="b"> </output></p> 
+    
+</body>
