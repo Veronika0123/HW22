@@ -4,15 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="assets/js/app.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Document</title>
 </head>
 <body onload="game()">
-    <p> Угадайте число от 1 до 100</p>
-    <h3>Остальсь попыток : <output id="t">-</output></h3>
-    <p> Ваш вариант: </p>
-    <input type="number" id="numInput">
-    <button onclick="game()">Дать ответ</button>
+    <div class="container" >
 
-    <p>Ваш вариант <output id="g"> </output></p> 
-    
+        <p> Угадайте число от 1 до 100</p>
+
+        <h3>Остальсь попыток : <output id="t">-</output></h3>
+
+        <p> Ваш вариант: </p>
+
+        <input type="number" id="numInput"> 
+
+        <button  id ='elem' onclick="game()">Дать ответ</button>
+
+        <p>Ваш вариант <output id="g"> </output></p> 
+
+        <p><output id= 'm'> </output></p>
+        
+    </div>
 </body>
