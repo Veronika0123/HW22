@@ -11,7 +11,6 @@
         let button1 = document.getElementById('elem');
 
         let num = +numInput.value;
-        console.log(` ${num} `);
         
         t.innerHTML = 10 - i;
 
