@@ -25,6 +25,7 @@
                 b = 'вы правы, поздравляю!!!';
                 button1.disabled = true;
                 button1.style = "background-color: gray;";
+                h.style = "font-size: 45px; color: green;"
             }
         }
         else  {
